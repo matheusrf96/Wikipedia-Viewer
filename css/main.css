@@ -1,0 +1,112 @@
+html, body{
+  background-color: #68b3ff;
+  color: #333333;
+}
+
+.content{
+  margin-top: 100px;
+}
+
+.ttl{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.searchBar{
+  border-style: solid;
+  border-radius: 12px;
+  border-color: #2169CC;
+  border-width: 4px;
+  margin-bottom: 5px;
+  text-align: center;
+  background-color: #222;
+}
+
+textarea:focus, input:focus, button:focus{
+  outline: none;
+  background-color: #222222;
+  border-color: #FFC768;
+}
+
+input:hover{
+  border-color: #FFC768;
+}
+
+#randomButton, #searchButton{
+  width: 140px;
+  height: 32px;
+  margin: 0 auto;
+  margin-top: 10px;
+  border: solid;
+  border-radius: 12px;
+  border-color: #2169CC;
+  border-width: 4px;
+  background-color: #2169cc;
+}
+
+.noDec:link{
+  text-decoration: none;
+  color: #333;
+}
+
+.noDec:visited{
+  text-decoration: none;
+  color: #333;
+}
+
+.noDec:hover{
+  text-decoration: none;
+  color: #333;
+}
+
+.noDec:active{
+  text-decoration: none;
+  color: #333;
+}
+
+#randomButton:hover, #searchButton:hover{
+  border-color: #FFC768;
+}
+
+#randomButton:active, #searchButton:active{
+  border-color: #FFC768;
+  background-color: #FFC768;
+}
+
+.added{
+  list-style-type: none;
+}
+
+.linkResult:link{
+  text-decoration: none;
+  color: #2169cc;
+}
+
+.linkResult:visited{
+  text-decoration: none;
+  color: #2169cc;
+}
+
+.linkResult:hover{
+  text-decoration: none;
+  color: #2169cc;
+}
+
+.linkResult:active{
+  text-decoration: none;
+  color: black;
+}
+
+
+.result{
+  margin-top: 10px;
+  background-color: white;
+  border-radius: 12px;
+}
+
+.result:hover{
+  border: solid;
+  border-radius: 12px;
+  border-width: 4px;
+  border-color: #FFC768;
+}
